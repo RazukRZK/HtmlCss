@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - CSS</title>
+    <style>
+        .corP{
+            color: rgb(4, 121, 121);
+        } 
+
+        .fontP{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #paragrafoLegal {
+            color: blueviolet;
+        }
+
+        #especial{
+            text-decoration: underline;
+            /*tamanho de fonte*/
+            font-size: 40pt;
+            /*tipo de fonte*/
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        } 
+        
+        body{
+            background-color: #c5bdbd;
+            text-align: center;
+            
+        }
+
+        img{
+            /*largura*/
+            width: 500px;
+            /*altura*/
+            height:auto ;
+            /*flutuar*/
+            float: inline-start;
+            /*arredondar bordas*/
+            border-radius: 20px;
+        }
+
+        .borda{
+            border: double purple 5px;
+        }
+
+        #paisagemespecial{
+            border: double blue 5px;
+        }
+
+    </style>
+    <!-- . para classe
+         # para id -->
+    <!-- id, class, tag (prioridade) -->
+</head>
+<body>
+
+   <H1 style="color: purple;">Aula CSS</H1>
+
+   <H3 id="especial">Paisagem especial</H3>
+   <img class="borda" id="paisagemespecial" src="paisagem2.jpg" alt="paisagem mais bonita">
+   <P class="corP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corrupti et nobis cum recusandae necessitatibus eos rerum. Amet aliquid itaque, quidem, fuga, provident sint corrupti inventore non praesentium dolorem dolores?</P>
+
+   <H3>Paisagem</H3>
+   <img class="borda" src="paisagem.jpg" alt="paisagem mais escura">
+   <P class="corP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corrupti et nobis cum recusandae necessitatibus eos rerum. Amet aliquid itaque, quidem, fuga, provident sint corrupti inventore non praesentium dolorem dolores?</P>
+
+   <H3>Paisagem</H3>
+   <img class="borda" src="paisagem1.jpg" alt="paisagem com sol">
+   <P class="corP fontP" id="paragrafoLegal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corrupti et nobis cum recusandae necessitatibus eos rerum. Amet aliquid itaque, quidem, fuga, provident sint corrupti inventore non praesentium dolorem dolores?</P>
+
+   
+    
+    
+
+</body>
+</html>
