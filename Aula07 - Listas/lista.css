@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: aqua;
+}
+
+li{
+    padding: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
