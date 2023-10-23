@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'fonteLT';
+    src: url(AmazonEmber_Lt.woff)
+}
+
+@font-face{
+    font-family: 'fonteRG';
+    src: url(AmazonEmber_Rg.woff)
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #00050D;
+    padding: 15px;
+    font-family: 'fonteLT';
+    display: flex;
+    justify-content: center;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:nth-child(1){
+    font-weight: bold;
+    margin-right: 50px;
+    font-family: fonteRG;
+    font-size: 22px;
+}
+
+header nav a:nth-child(5){
+    margin-right: 50px;
+}
+
+ #usuario{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;  
+} 
+
+
