@@ -2,13 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100%;
 }
 
 body{
     width: 100%;
     height: 100%;
-    background-image: url(rocket\ league.jpg);
+    background-image: url(rocketleague.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 45px;
+    color: #FBBA22;
+    text-shadow: 3px 3px #A832BC;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+form div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+div input{
+    padding-left: 5px;
+    height: 25px;
+    border: solid 1px #FBBA22;
+}
+
+div input:focus{
+    outline: 2px solid #FBBA22;
+}
+
+form > input{
+    background-color: #FBBA22;
+    width: 100%;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    height: 25px;
+    transition: background-color .2s;
+}
+
+form > input:hover{
+    background-color: #e4c888;
+    cursor: pointer;
+}
+
+form label{
+    color: #FBBA22;
+    font-weight: bold;
 }
