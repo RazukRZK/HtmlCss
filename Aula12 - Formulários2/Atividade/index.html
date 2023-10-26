@@ -11,135 +11,78 @@
     <form action="">
         
         <fieldset>
-            <fieldset>
-                <legend>DADOS PESSOAIS</legend>
+
+                <p>Dados pessoais</p>
                 <div>
                     <label for="nome"></label>
-                    <input
-                        type="text"
-                        name="nome"
-                        id="nome"
-                        placeholder="Nome completo"
-                        autocomplete="cc-nome"
-                >
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo" autocomplete="cc-nome">
                 </div>
+
                 <div>
                     <label for="email"></label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                        autocomplete="email"
-                    >
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="email">
                 </div>
 
-                <div class="endereco">
-                    <label for="endereço"></label>
-                    <input
-                        type="address"
-                        name="endereço"
-                        id="endereço"
-                        placeholder="Endereço"
-                        autocomplete="cc-address"
-                    >
+                <div id="localizacao">
+                    <div>
+                        <label for="endereço"></label>
+                        <input type="address" name="endereço" id="endereço" placeholder="Endereço" autocomplete="cc-a" >
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <input type="address" name="uf" id="uf" placeholder="UF" autocomplete="UF">
+                    </div>
                 </div>
 
-                <div class="endereco">
-                    <label for="uf"></label>
-                    <input
-                        type="address"
-                        name="uf"
-                        id="uf"
-                        placeholder="UF"
-                        autocomplete="UF"
-                        >
+                <div id="sla">
+                    <div>
+                        <label for="dt_nascimento"></label>
+                        <input type="text" name="dt_nascimento" id="dt_nascimento" placeholder="Data de nascimento" autocomplete="">
+                    </div>
+                    <div>
+                        <label for="telefone"></label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" autocomplete="tel">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="dt_nascimento"></label>
-                    <input
-                        type=""
-                        name="dt_nascimento"
-                        id="dt_nascimento"
-                        placeholder="Data de nascimento"
-                        autocomplete=""
-                    >
+                <div id="identidade">
+                    <div>
+                        <label for="cpf"></label>
+                        <input type="number" name="cpf" id="cpf" placeholder="CPF" autocomplete="">
+                    </div>
+                    <div>
+                        <label for="rg"></label>
+                        <input type="number" name="rg" id="rg" placeholder="RG" autocomplete="">
+                    </div>
                 </div>
-                <div>
-                    <label for="telefone"></label>
-                    <input
-                        type="tel"
-                        name="telefone"
-                        id="telefone"
-                        placeholder="Telefone"
-                        autocomplete="tel"
-                >
-                </div>
-            </fieldset>
 
-            <fieldset>
-                <legend>FORMAÇÃO ACADEMICA</legend>
+                <p>Formação Acadêmica</p>
                 <div>
                     <label for="formacao"></label>
-                    <input
-                        type="text"
-                        name="formacao"
-                        id="formacao"
-                        placeholder=""
-                        autocomplete="cc-nome"
-                >
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="5"></textarea>
                 </div>
-            </fieldset>
 
-            <fieldset>
-                <legend>OBJETIVO</legend>
+                <p>Objetivo</p>
                 <div>
                     <label for="objetivo"></label>
-                    <input
-                        type="text"
-                        name="objetivo"
-                        id="objetivo"
-                        placeholder=""
-                        autocomplete=""
-                >
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="5"></textarea>
                 </div>
-            </fieldset>
 
-            <fieldset>
-                <legend>EXPERIÊNCIA PROFISSIONAL</legend>
+                <p>Experiências Profissionoias</p>
                 <div>
                     <label for="experiencia"></label>
-                    <input
-                        type="text"
-                        name="experiencia"
-                        id="experiencia"
-                        placeholder=""
-                        autocomplete=""
-                >
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="5"></textarea>
                 </div>
-            </fieldset>
 
-            <fieldset>
-                <legend>CURSO COMPLEMENTARES</legend>
+                <p>Cursos Complementares</p>
                 <div>
                     <label for="complementar"></label>
-                    <input
-                        type="text"
-                        name="complementar"
-                        id="complementar"
-                        placeholder=""
-                        autocomplete=""
-                >
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="5"></textarea>
                 </div>
-            </fieldset>
+            
+
         </fieldset>
-
-        
-
-
-
-        
+      
     </form>
 </body>
 </html>

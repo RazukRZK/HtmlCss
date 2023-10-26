@@ -1,14 +1,46 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 form{
     width: 50%;
+    height: 100%;
 }
 
-legend{
-    text-align: center;
+form p {
+    font-weight: bold;
 }
 
-.endereco{
-    display: inline-block;      
+#nome, #email{
+    width: 100%;
 }
+
+#localizacao, #sla, #identidade{
+    display: flex;
+    justify-content: space-between;
+}
+
+#formacao, #objetivo, #experiencia, #complementar{
+    width: 100%;
+}
+
+div input{
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
 
 
 
