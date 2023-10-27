@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <fieldset>
+            <legend>Inputs adicionais</legend>
+
+            <input type="color" value="#00ff00">
+            <input type="range" min="1" max="5" value="2">
+            <input type="file">
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Seletor único</legend>
+
+            <label for="">Formação acadêmica</label> <br>
+
+            <input type="radio" id="basico" name="ensino">
+            <label for="basico">Ensino básico</label>
+
+            
+            <input type="radio" id="medio" name="ensino" checked>
+            <label for="medio">Ensino médio</label>
+
+            
+            <input type="radio" id="superior" name="ensino">
+            <label for="superior">Ensino superior</label> 
+            <br><br><br>
+
+            <select name="cursos" id="curso">
+                <option value="">--Selecione--</option>
+                <optgroup label="office">
+                    <option value="ex">exel</option>
+                    <option value="wr">word</option>
+                    <option value="pr">power point</option>
+                </optgroup>
+
+                <optgroup label="front-end">
+                    <option value="ex">html</option>
+                    <option value="wr">css</option>
+                    <option value="pr">javascript</option>
+                </optgroup>
+            </select>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seletor multiplo</legend>
+
+            <input type="checkbox" name="exel" id="exel">
+            <label for="">exel</label>
+
+            <input type="checkbox" name="word" id="word">
+            <label for="">word</label>
+
+            <input type="checkbox" name="power" id="power">
+            <label for="">poewe point</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>dados pré-definidos</legend>
+
+            <label for="">Profissão</label>
+            <input name="profissao" id="profissao" list="profissoes">
+
+            <datalist id="profissoes">
+                <option value="bb">bombeiro</option>
+                <option value="as">astronauta</option>
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pessoais</legend>
+
+            <label for="nome"></label>
+            <input type="text" name="nome" id="nome" required maxlength="5" minlength="2">
+        </fieldset>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>
