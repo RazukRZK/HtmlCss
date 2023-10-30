@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVIDADE</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="shortcut icon" href="images/imagem1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/@media.css" media="screen and (max-width : 768px)">
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <img class="imagem" src="images/imagem2.jpg" alt="">
+            </div>
+            <nav id="menuPc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Halllowen</a></li>
+                    <li><a href="#">Curiosidade</a></li>
+                    <li><a href="#">Época</a></li>
+                </ul>
+            </nav>
+
+            <div id="menuIcon" onclick="dropdown()">
+                <img class="imagem" src="images/menuIcon.svg" alt="">
+            </div>
+        </header>
+
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Halllowen</a></li>
+                <li><a href="#">Curiosidade</a></li>
+                <li><a href="#">Época</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="banner" class="backgroundimg"></section>
+            <section id="sobre">
+                <h1>Halloween 2023</h1>
+                <img class="imagem" src="images/imagem1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos consequatur, quo mollitia officiis illum dolorem, laborum omnis autem provident sit nostrum minima consectetur voluptates voluptatem praesentium commodi dolorum assumenda?</p>
+            </section>
+            <section id="curiosidade"></section>
+            <section id="epoca"></section>
+        </main>
+        <footer>
+            <h3>Todos os direiro reservados a @Hallowen 2023</h3>
+        </footer>
+    </div>
+
+
+<script>
+    function dropdown() {
+        if(menuMobile.style.display == "flex"){
+            menuMobile.style.display ="none"
+        }else{
+            menuMobile.style.display ="flex"
+        }
+
+    }
+</script>
+
+</body>
+</html>
+

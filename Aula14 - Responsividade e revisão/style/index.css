@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face{
+    font-family: 'halloween';
+    src: url(../fonts/halloween_17/HALLOWEEN.ttf);
+}
+
+.backgroundimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'halloween';
+    color: var(--titulos);
+}
+
+h1{
+    font-size: 35pt;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --cor-fundo : rgb(234, 234, 234);
+    --cor-primaria: black;
+    --links: orange;
+    --titulos : orange;
+}
+
+header,footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: var(--cor-primaria);
+}
+
+.imagem{
+    width: 100%;
+}
+
+#page{
+    width: 100%;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    color: var(--links);
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#logo{
+    width: 200px;
+}
+
+#menuIcon{
+    cursor: pointer;
+    display: none;
+}
+
+#menuMobile{
+    display: none;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#banner{
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    background-image: url(../images/imagem2.jpg);
+
+}
+
+#sobre{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+@media screen and (max-width : 768px) {
+    #banner{
+        width: 100%;
+        height: 200px;
+    }
+}
+
