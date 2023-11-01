@@ -4,51 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style/login.css">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="../style/cadastrar.css">
 </head>
 <body>
+
+    <header></header>
+
     <div id="pagina">
-        <form action="">
-            <fieldset>
-                <h1>Cadastre-se</h1>
+        <main>
+            <div id="form">
+                <form action="">
+                    <fieldset>
+                        <h1>Cadastre-se</h1>
+        
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+        
+                        <div>
+                            <label for="numeroCelular"></label>
+                            <input type="tel" name="celular" id="celular" placeholder="Número do celualar">
+                        </div>
+        
+                        <div>
+                            <label for="nome"></label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                        </div>
+        
+                        <div>
+                            <label for="nomeUsuario"></label>
+                            <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Nome de usuário">
+                        </div>
+                        
+                        <div>
+                            <label for="senha"></label>
+                            <input type="password" name="senha" id="senha" placeholder="Senha">
+                        </div>
+        
+                        <input type="submit" value="Cadastrar">
 
-                <div>
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                </div>
+                        <div id="links">
+                            <p>Tem uma conta?</p>
+                            <a href="../login.html">Conecte-se</a>
+                        </div>                       
+                    </fieldset>        
+                </form>
+            </div>
 
-                <div>
-                    <label for="numeroCelular"></label>
-                    <input type="tel" name="celular" id="celular" placeholder="Número do celualar">
-                </div>
+            <div id="banner">
+                <img src="../images/logobone.PNG" alt="">
+            </div>
 
-                <div>
-                    <label for="nome"></label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome completo">
-                </div>
-
-                <div>
-                    <label for="nomeUsuario"></label>
-                    <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Nome de usuário">
-                </div>
-                
-                <div>
-                    <label for="senha"></label>
-                    <input type="password" name="senha" id="senha" placeholder="Senha">
-                </div>
-
-                <input type="submit" value="Continuar">
-
-                <a href="#">Esqueci minha senha</a>
-                <a href="#">Cadastre-se</a>
-                
-            </fieldset>
-
-            <fieldset>
-                <p>Tem uma conta?</p> <a href="#">Conecte-se</a>
-            </fieldset>
-        </form>
+        </main>
     </div>
+
+    <footer></footer>
 </body>
 </html>

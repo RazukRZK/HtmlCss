@@ -8,31 +8,46 @@
     <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
+
+    <header></header>
+
     <div id="pagina">
-        <form action="">
-            <fieldset>
-                <h1>Faça Login</h1>
-                <P>Usuário ou email</P>
+        <main>
+            <div id="form">
+                <form action="">
+                    <fieldset>
+                        <h1>Faça seu login</h1>
+                        <P>Usuário ou email</P>
+        
+                        <div>
+                            <label for="usuario"></label>
+                            <input type="text" name="usuario" id="usuario" placeholder="">
+                        </div>
+        
+                        <p>Senha</p>
+        
+                        <div>
+                            <label for="senha"></label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+        
+                        <input type="submit" value="Continuar">
+        
+                        <div id="links">
+                            <a href="pages/senha.html">Esqueci minha senha</a>
+                            <a href="pages/cadastrar.html">Cadastre-se</a>
+                        </div>
+                        
+                    </fieldset>
+                </form>
+            </div>
 
-                <div>
-                    <label for="usuario"></label>
-                    <input type="text" name="usuario" id="usuario">
-                </div>
-
-                <p>Senha</p>
-
-                <div>
-                    <label for="senha"></label>
-                    <input type="password" name="senha" id="senha">
-                </div>
-
-                <input type="submit" value="Continuar">
-
-                <a href="#">Esqueci minha senha</a>
-                <a href="#">Cadastre-se</a>
-                
-            </fieldset>
-        </form>
+            <div id="banner">
+                <img src="images/logobone.PNG" alt="">
+            </div>
+        </main>      
     </div>
+
+    <footer></footer>
 </body>
 </html>
