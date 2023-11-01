@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "reydex";
+    src: url(../fonts/Reydex.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +21,14 @@ a{
 header{
     width: 100%;
     height: 10%;
-    background-color: #F04006;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1{
+    font-family: "reydex";
+    color: #F04006;
 }
 
 #pagina{
@@ -61,7 +73,7 @@ fieldset h1{
     color: #F04006;
 }
 
-fieldset p{
+fieldset h5{
     font-size: 13px;
     font-weight: 700;
 }
