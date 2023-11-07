@@ -1,0 +1,10 @@
+/* important prioriza o elemento em si */
+
+#page{
+    background-color: black!important;
+}
+
+.carousel-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; 
+    background-color: rgba(0, 0, 0, 0.514);
+}
